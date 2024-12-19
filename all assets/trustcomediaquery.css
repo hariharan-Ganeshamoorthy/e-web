@@ -1,0 +1,124 @@
+@media all and (max-width:991px){
+.nav-button{
+    height:6vh !important;
+}
+.logo-img{
+    height: 10vh !important;
+}
+.first-page{
+    height: 75vh;
+    background-image: url(./images/happy-blind-young-man-working-laptop_O3scF.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.popup-overlay{
+    height: 69vh;
+}
+.f-h1{
+    font-size: 43px;
+    font-weight: 600;
+}
+.f-p{
+    font-size: 16px;
+}
+.second-bnav{
+    flex-direction: column-reverse;
+}
+.last-img-content h1{
+    font-size: 40px;
+}
+
+} 
+@media all and (min-width:991px){
+    .first-page{
+        height: 90vh;
+       
+    }
+    .f-h1{
+        font-size: 58px !important;
+        font-weight: 600;
+    
+    }
+    .card-images{
+        height: 38vh !important;
+    }
+    .king{
+        padding-bottom: 70px;
+    }
+    .king,.star,.search{
+        margin: auto;
+        transition: transform 0.3s ease;
+    }
+    .king:hover {
+        transform: translateY(-10px);
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
+    .star:hover{
+        transform: translateY(-10px);
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
+    .search:hover{
+        transform: translateY(-10px);
+        border-bottom-right-radius: 45px;
+        border-bottom-left-radius: 45px;
+    }
+}
+@media all and (max-width:1200px){
+    .popup-overlay{
+        height: 74vh !important;
+    }
+}
+@media all and (max-width:520px){
+    .first-page{
+        height: 75vh;
+    }
+    .list-scroll{
+        padding-left: 250px !important;
+    }
+    .f-h1{
+        font-size: 33px;
+        font-weight: 600;
+    }
+    .f-p{
+        font-size: 13px;
+    }
+    .marketing{
+        font-size: 15px;
+    }
+    .big-box{
+        padding: 6px 30px 6px 30px;
+    }
+    .small-box{
+        background-color: gray;
+        padding: 5px 8px 5px 8px;
+    }
+    .search{
+        padding-bottom: 100px;
+    }
+}
+@media all and (min-width:576px){
+    .small-device-h1 h1{
+        font-size: 40px;
+    }
+    .service-customer h1{
+        font-size: 43px;
+    }
+    .last-p{
+        font-size: 17px;
+    }
+    .footer-li{
+        font-size: 16px;
+        color: gray;
+    }
+    .footer-p{
+        font-size: 18px;
+        color: gray;
+    }
+}
+@media all and (max-width:768px){
+    .last-img-content h1{
+        font-size: 30px;
+    }
+}
